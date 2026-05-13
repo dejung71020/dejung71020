@@ -90,10 +90,8 @@ OpenAI FAQ 챗봇 구현 (50개 JSON 주입으로 환각 차단)
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dejung71020&show_icons=true&theme=default&hide_border=true&count_private=true" height="160"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dejung71020&layout=compact&theme=default&hide_border=true" height="160"/>
-
+<img src="https://streak-stats.demolab.com?user=dejung71020&theme=default&hide_border=true&date_format=Y.n.j" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dejung71020&layout=compact&theme=default&hide_border=true&langs_count=6" height="160"/>
 </div>
 
 ---
