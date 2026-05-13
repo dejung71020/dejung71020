@@ -52,7 +52,7 @@
 
 화자분리 → 회의 요약 → Jira · Slack · Google Calendar 원클릭 내보내기
 
-n8n → FastAPI 전환, BaseClient 추상화로 **5개 외부 서비스** 단일 인터페이스 통합
+n8n → FastAPI 전환, BaseClient 추상화로 **3개 외부 서비스** 단일 인터페이스 통합
 
 <img src="assets/workb.jpg" width="100%"/>
 
