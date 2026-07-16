@@ -1,136 +1,105 @@
 <div align="center">
+  <a href="https://dejung71020.github.io/">
+    <picture>
+      <source media="(max-width: 600px)" srcset="assets/vibe-carving-hero-mobile.svg" />
+      <img src="assets/vibe-carving-hero.svg" width="100%" alt="Daejung Lee — Vibe Carving" />
+    </picture>
+  </a>
 
-<img src="assets/profile.jpg" width="130" style="border-radius:50%"/>
+  <h1>Daejung Lee <sub>이대중</sub></h1>
+  <p><strong>AI 네이티브 백엔드·플랫폼 엔지니어 @ YAMON</strong></p>
+  <p>AI로 빠르게 만든 결과를 구조·테스트·배포·관측·복구가 연결된 운영 가능한 시스템으로 다듬습니다.</p>
 
-# 이대중 (Lee Daejung)
-
-**서비스의 완성도를 끝까지 책임지는 백엔드 개발자**
-
-설계부터 배포, 유지보수까지 직접 경험했습니다.<br>
-지금도 팡팡팡 앱을 운영하며 실서비스의 무게를 배우고 있습니다.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dejung71020.github.io/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dejung71020@gmail.com)
-
+  <a href="https://dejung71020.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-07111F?style=for-the-badge&logo=googlechrome&logoColor=65F4D2" alt="Portfolio" /></a>
+  <a href="https://github.com/dejung71020/production-vibe-carving-notes"><img src="https://img.shields.io/badge/VIBE_CARVING_NOTES-101B32?style=for-the-badge&logo=gitbook&logoColor=76B9FF" alt="Vibe Carving Notes" /></a>
+  <a href="mailto:dejung71020@gmail.com"><img src="https://img.shields.io/badge/EMAIL-071B20?style=for-the-badge&logo=gmail&logoColor=65F4D2" alt="Email" /></a>
 </div>
 
----
+<br />
 
-## 🛠 Tech Stack
+## Vibe Carving
 
-**Backend**
+> **Vibe Coding의 생성 속도에 현업의 구조와 검증을 더합니다.**<br />
+> 가장 작은 사용자 결과를 자르고, 계약과 테스트를 고정하고, 배포·관측·복구 증거가 남을 때까지 반복합니다.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![APScheduler](https://img.shields.io/badge/APScheduler-4A90D9?style=flat-square&logo=clockify&logoColor=white)
+<img src="assets/vibe-carving-flow.svg" width="100%" alt="Prompt to Carve production loop" />
 
-**Database**
+## Selected product evidence
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
-![DBeaver](https://img.shields.io/badge/DBeaver-382923?style=flat-square&logo=dbeaver&logoColor=white)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://dejung71020.github.io/case-studies/wallet-os"><img src="assets/wallet-os.webp" width="100%" alt="Wallet OS Lite actual UI" /></a>
+      <h3>Wallet OS Lite</h3>
+      <p>급여 입력 → 배분 규칙 → 목적별 지갑 → 월 정산. Expo·TypeScript와 로컬 저장 경계로 닫히는 작은 완성형 흐름입니다.</p>
+      <p><a href="https://github.com/dejung71020/wallet-os-lite"><strong>Repository ↗</strong></a> · <a href="https://dejung71020.github.io/wallet-os-lite/"><strong>Live demo ↗</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://dejung71020.github.io/case-studies/soccer-intelligence"><img src="assets/soccer-fieldnote.webp" width="100%" alt="Soccer Intelligence Lite actual UI" /></a>
+      <h3>Soccer Intelligence Lite</h3>
+      <p>하나의 fixture와 OpenAPI 계약이 FastAPI 응답부터 Astro 경기 목록·상세·통계 화면까지 이어지는 수직 기능입니다.</p>
+      <p><a href="https://github.com/dejung71020/soccer-intelligence-lite"><strong>Repository ↗</strong></a> · <a href="https://dejung71020.github.io/soccer-intelligence-lite/"><strong>Live demo ↗</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://dejung71020.github.io/projects/workb"><img src="assets/workb-ui.webp" width="100%" alt="WorkB actual UI" /></a>
+      <h3>WorkB</h3>
+      <p>회의 결과와 액션 아이템을 Jira·Slack·Google Calendar로 연결하는 meeting intelligence 백엔드입니다.</p>
+      <p><a href="https://github.com/dejung71020/workb-backend"><strong>Backend ↗</strong></a> · <a href="https://dejung71020.github.io/projects/workb"><strong>Case study ↗</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://dejung71020.github.io/projects/pangpangpang"><img src="assets/pang.jpg" width="100%" alt="Pangpangpang project visual" /></a>
+      <h3>팡팡팡</h3>
+      <p>이미지 진단부터 위험 안내와 해결 흐름까지 연결한 AI 서비스입니다. FastAPI·ONNX·RAG 파이프라인을 실제 배포했습니다.</p>
+      <p><a href="https://github.com/dejung71020/QUAIL_BACK-END"><strong>Backend ↗</strong></a> · <a href="https://play.google.com/store/apps/details?id=com.quail.pangpangpang"><strong>Google Play ↗</strong></a></p>
+    </td>
+  </tr>
+</table>
 
-**Infra & DevOps**
+## Proof, not promises
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
-![AWS RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
-![Route53](https://img.shields.io/badge/Route53-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![nginx](https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<table>
+  <tr>
+    <td width="33%" valign="top"><h3>01 · Test</h3><p>도메인 규칙 단위 테스트, API fixture 계약, Astro·Expo production build를 공개 CI에서 반복 검증합니다.</p></td>
+    <td width="33%" valign="top"><h3>02 · Delivery</h3><p>GitHub Actions와 Pages로 Lite 저장소와 포트폴리오를 재현 가능하게 빌드·배포합니다.</p></td>
+    <td width="33%" valign="top"><h3>03 · Recovery</h3><p>변경 전 tag·mirror·bundle을 만들고, 삭제·복구 리허설에서 원본 tree SHA 일치를 확인했습니다.</p></td>
+  </tr>
+</table>
 
-**Auth & Security**
+## Six repositories that explain my work
 
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![OAuth2](https://img.shields.io/badge/OAuth_2.0-EB5424?style=flat-square&logo=auth0&logoColor=white)
-![AES-256](https://img.shields.io/badge/AES--256-00599C?style=flat-square&logo=letsencrypt&logoColor=white)
+| | Repository | Evidence |
+|---:|---|---|
+| 01 | **[production-vibe-carving-notes](https://github.com/dejung71020/production-vibe-carving-notes)** | 익명화된 문제·제약·결정·실패·교훈 |
+| 02 | **[QUAIL_BACK-END](https://github.com/dejung71020/QUAIL_BACK-END)** | AI 진단 파이프라인과 실서비스 배포 |
+| 03 | **[workb-backend](https://github.com/dejung71020/workb-backend)** | 외부 업무 도구를 연결하는 통합 백엔드 |
+| 04 | **[wallet-os-lite](https://github.com/dejung71020/wallet-os-lite)** | 로컬 우선 지갑 도메인의 완성형 수직 흐름 |
+| 05 | **[soccer-intelligence-lite](https://github.com/dejung71020/soccer-intelligence-lite)** | FastAPI·Astro·OpenAPI 계약 조립 검증 |
+| 06 | **[dejung71020.github.io](https://github.com/dejung71020/dejung71020.github.io)** | 실제 UI 증거 중심 Astro 포트폴리오 |
 
-**AI / ML**
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-
-**External API**
-
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Google Calendar](https://img.shields.io/badge/Google_Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)
-![Kakao](https://img.shields.io/badge/Kakao-FFCD00?style=flat-square&logo=kakao&logoColor=black)
-![FCM](https://img.shields.io/badge/Firebase_FCM-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
----
-
-## 💼 Projects
-
-### 🤝 WorkB — 회의 에이전트 웹서비스
-> KDT 최종 팀프로젝트 | 2026.04 – 2026.05 | 팀 6명
-
-화자분리 → 회의 요약 → Jira · Slack · Google Calendar 원클릭 내보내기
-
-n8n → FastAPI 전환, BaseClient 추상화로 **3개 외부 서비스** 단일 인터페이스 통합
-
-<img src="assets/workb.jpg" width="100%"/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dejung71020/workb-backend)
-
----
-
-### 🍄 팡팡팡 — 곰팡이 진단 AI 앱
-> KDT 중간 팀프로젝트 | 2026.01 – 2026.02 | 팀 4명 | **Google Play 실배포 · 운영 중**
-
-EfficientNet ONNX → Grad-CAM → ChromaDB RAG → Gemini 리포트 AI 파이프라인
-
-AWS EC2 · S3 · Route53 · Docker 기반 실제 배포 및 유지보수 경험
-
-<img src="assets/pang.jpg" width="100%"/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dejung71020/QUAIL_BACK-END)
-[![PlayStore](https://img.shields.io/badge/Play_Store-34A853?style=flat-square&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.quail.pangpangpang)
-
----
-
-### 🛒 애완용품샵 — 반려동물 이커머스
-> KDT 세미 팀프로젝트 | 2025.12 – 2026.01 | 팀 5명
-
-주문 · 재고 · 결제를 하나의 트랜잭션으로 묶어 데이터 불일치 0건 유지
-
-OpenAI FAQ 챗봇 구현 (50개 JSON 주입으로 환각 차단)
-
-<img src="assets/pet.jpg" width="100%"/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dejung71020/project1)
-
----
-
-## 📚 지금 하고 있는 것
-
-- 📝 [TIL](https://github.com/dejung71020/TIL) — 매일 배운 것 기록 중
-- 🧩 [Algorithm](https://github.com/dejung71020/algorithm) — 매일 1문제
-- 📖 [CS Study](https://github.com/dejung71020/cs-study) — 기술 면접 개념 정리
-
----
-
-## 📊 GitHub Stats
+## Engineering stack
 
 <div align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,typescript,react,astro,docker,aws,mysql,redis,githubactions&perline=10" alt="Python, FastAPI, TypeScript, React, Astro, Docker, AWS, MySQL, Redis, GitHub Actions" />
+</div>
 
-<img src="https://github-readme-stats-green-mu-79.vercel.app/api?username=dejung71020&show_icons=true&theme=default&hide_border=true&count_private=true" height="160"/>
-<img src="https://github-readme-stats-green-mu-79.vercel.app/api/top-langs/?username=dejung71020&layout=compact&theme=default&hide_border=true&exclude_repo=github-readme-stats" height="160"/>
+<br />
 
+`Domain boundaries` · `Explicit contracts` · `Colocated tests` · `SSOT config` · `Staged delivery` · `Observable operations` · `Traceable recovery`
+
+## GitHub activity
+
+<div align="center">
+  <img src="https://github-readme-stats-green-mu-79.vercel.app/api?username=dejung71020&show_icons=true&hide_border=true&hide_rank=true&hide=stars&count_private=true&title_color=147A67&icon_color=315F9B" height="165" alt="Daejung Lee GitHub activity" />
+  <img src="https://github-readme-stats-green-mu-79.vercel.app/api/top-langs/?username=dejung71020&layout=compact&hide_border=true&exclude_repo=github-readme-stats&title_color=147A67" height="165" alt="Most used languages" />
 </div>
 
 ---
 
 <div align="center">
-
-📞 010-9745-1519 &nbsp;|&nbsp; ✉️ dejung71020@gmail.com &nbsp;|&nbsp; 🌐 [dejung71020.github.io](https://dejung71020.github.io/)
-
+  <strong>구조를 설계하고, 증거로 검증하고, 운영까지 책임집니다.</strong><br /><br />
+  <a href="https://dejung71020.github.io/">Portfolio</a> · <a href="mailto:dejung71020@gmail.com">dejung71020@gmail.com</a> · 010-9745-1519
+  <br /><br />
+  <sub>회사 관련 내용은 공개 홈페이지와 익명화된 개인 경험만 사용하며 내부 코드·고객 데이터·관리자 화면은 공개하지 않습니다.</sub>
 </div>
